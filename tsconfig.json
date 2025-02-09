@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "lib": ["ESNext","dom"],
+      "moduleResolution": "Node",
+      "types": ["@typescript-to-lua/language-extensions"],
+      "strict": true
+    },
+    "tstl": {
+        "luaTarget": "5.4",
+        "noImplicitSelf":true,
+        "noHeader":true,
+        // "luaBundle":"main.lua",
+        // "luaBundleEntry":"src/ts.ts"
+        //Test
+        "luaBundle":"TStoLuaTest/test.lua",
+        "luaBundleEntry":"TStoLuaTest/test.ts"
+    }
+
+  }
